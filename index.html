@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>modnaKasta</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="theme-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	
+	<style>
+	body {
+		overflow-x: hidden;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container-header">
+			<header>
+				<div class="top-line">
+					<!--START Our hidden menu-->
+					<input type="checkbox" id="hmt" class="hidden-menu-ticker">
+					<label class="btn-menu" for="hmt">
+						<span class="first"></span>
+						<span class="second"></span>
+						<span class="third"></span>
+					</label>
+					<ul class="hidden-menu">
+						<li><a href="">Главная</a></li>
+						<li><a href="">О нас</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+					<!--END Our hidden menu-->
+
+					<div class="container-logo">
+						<a href="#" class="header-logo">
+							<img src="img/logo@3x.png" alt="" class="logo">
+						</a>				
+					</div>
+					<div class="steps">
+						<p>1. доставка</p>
+						<p><span class="lines">2. оплата</span></p>
+						<p class="active">3. подтверждение</p>
+					</div>
+					<div class="shop-sign">
+						<i class="fas fa-shopping-cart"></i>
+					</div>				
+				</div>
+
+			</header>
+		</div>
+
+		<!--Content-->
+		<div class="time-line">
+			<div class="circle-item">
+				<h2>Доставка</h2>
+				<p><span><i class="fas fa-check-circle"></i></span></p>
+			</div>
+			
+			<div class="circle-item">
+				<h2>Оплата</h2>
+				<p><span><i class="fas fa-check-circle"></i></span></p>
+			</div>
+			
+			<div class="circle-item">
+				<h2>Подтверждение</h2>
+				<p id="bdr-none"><span><i class="fas fa-check-circle"></i></span></p>
+			</div>
+			
+		</div>
+		<button class='btn-confirm-order hidden'>Подтвердить заказ</button>
+		
+		<div class="left-content">
+			<div class="top-blocks">
+				<div class="delivery-block">
+					<i class="fas fa-check-circle"></i>
+					<h2 class="h2">доставка</h2>
+					<p>Самовывоз: Киев, №1, Харьковское шоссе, 201/203, БЦ modnaVilla, 1 этаж</p>
+					<p><span>с 10:00 до 21:00, без выходных</span></p>
+					<p>Получатель: Василий Пупкин</p>
+					<p><span>(099) 123-45-67</span></p>
+					<a href="#">Изменить</a>
+				</div>
+				<div class="pay-block">
+					<i class="fas fa-check-circle"></i>
+					<h2 class="h2">оплата</h2>
+					<p>Наличными в платежном терминале</p>
+					<a href="#">Изменить</a>
+					<hr class="hr">
+					<div class="discount">
+						<i class="fas fa-credit-card"></i>
+						<p>
+							Оплатите картой на сайте и получите бесплатную доставку до 5кг и <span>скидку 5%</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="fastDelivery-block">
+				<span>Быстрая доставка Black</span>
+				<hr class="hr hr-long">
+				<div class="fastDel-blocks">
+					<div class="clothes-block">
+						<div class="clouth-item">
+							<img src="img/legins.jpg" alt="">
+							<h4 class="h4">Легинсы United Colors of Benetton</h4>
+							<span>Размер: XS, Цвет: белый,</span><br>
+							<span>Цена: 1400 грн, Кол-во: 1, Сумма: 1400 грн</span>
+						</div>
+						<hr class="hr hr-long">
+						<div class="clouth-item">
+							<img src="img/United-color.jpg" alt="">
+							<h4 class="h4">Футболка Colins</h4>
+							<span>Размер: XS, Цвет: белый,</span><br>
+							<span>Цена: 1400 грн, Кол-во: 1, Сумма: 1400 грн</span>
+						</div>
+					</div>
+					<hr class="mobv">
+					<div class="total-clothes">
+						<table>
+							<tr>
+								<th>Кол-во</th>
+								<th>2</th>
+							</tr>
+							<tr>
+								<th>Стоимость доставки</th>
+								<th>бесплатно</th>
+							</tr>
+							<tr>
+								<th>Сумма заказа</th>
+								<th>2800 грн</th>
+							</tr>
+							<tr>
+								<th>Дата доставки</th>
+								<th>28 Окт. - 04 Ноя.</th>
+							</tr>
+							<tr>
+								<th>Общий вес</th>
+								<th>7 кг <i class="fas fa-exclamation-circle"></i></th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			
+			<div class="back-prev hidd-sm">
+				<a href="#"> <i class="fa fa-angle-left"></i>Вернуться в корзину</a>
+			</div>
+			
+		</div>
+		
+		<aside class="confirm-block">
+			<h2 class="h2">подтверждение</h2>
+			<hr class="hr hr-long hr-conf">
+			<div class="promo">
+				<input type="text" placeholder='Ввести промокод'>
+				<button class='apply-promo' type="submit">Применить</button>
+			</div>
+			<h3 class="h3">Использовать персональный счет</h3>
+			<label class="container-chexbox peronalBill">
+				<input type="checkbox" checked="checked"><span class="checkbox-text">100 грн</span>
+				<span class="checkmark"></span>
+			</label>
+			<hr class="hr hr-persBill">
+			<h3 class="h3">Использовать доступные бонусы</h3>
+			<label class="container-chexbox">
+				<input type="checkbox" checked="checked"><span class="checkbox-text">100 грн</span><span class="checkbox-text-right">до
+					3 Авг 2017 6:00 <i class="fas fa-angle-down"></i></span>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container-chexbox">
+					<input type="checkbox"><span class="checkbox-text">30 грн</span><span class="checkbox-text-right">до 3 Авг 2017 6:00 <i
+						class="fas fa-angle-down"></i></span>
+						<span class="checkmark"></span>
+					</label>
+					<p class="show-bonuses">Показать еще бонусы</p>
+					<hr class="hr hr-long hr-show-more">
+					<table class="total-items">
+						<tr>
+							<th>Общее кол-во товаров</th>
+							<th>3</th>
+						</tr>
+						<tr>
+							<th>Сумма заказов</th>
+							<th>4350 грн</th>
+						</tr>
+						<tr>
+							<th>Стоимость доставки</th>
+							<th>380 грн</th>
+						</tr>
+						<tr>
+							<th>При оплате картой</th>
+							<th>-60 грн</th>
+						</tr>
+						<tr>
+							<th>Вес посылки</th>
+							<th>7 кг</th>
+						</tr>
+					</table>
+					<div class="weight">
+						<i class="fas fa-weight-hanging"></i>
+						<span>При заказе весом более 5 кг, доплата 15 грн за каждый следующий кг</span>
+					</div>
+					<hr class="hr hr-long hr-total">
+					<table class='total'>
+						<tr>
+							<th>К оплате:</th>
+							<th>4632 грн</th>
+						</tr>
+					</table>
+					<div class="to-pay">
+						<i class="fas fa-credit-card"></i>
+						<p>
+							Оплатите картой на сайте и получите дополнительную скидку 5%
+						</p>
+					</div>
+					<button class='btn-confirm-order'>Подтвердить заказ</button>
+					<div class="cards">
+						<img src="img/verified-by-visa.png" alt="">
+						<img src="img/latest.png" alt="">
+					</div>
+					<div class="apply-offer">
+						<p>Нажимая "Подтвердить заказ", вы соглашаетесь с <span>договором публичной оферты</span></p>
+					</div>
+					<div class="back-prev hidd-lg"><i class="fa fa-angle-left"></i>
+						<a href="#"> Вернуться в корзину</a>
+					</div>
+				</aside>
+
+			</div>
+
+		</body>
+		</html>

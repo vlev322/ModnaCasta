@@ -1,0 +1,207 @@
+@media only screen and (max-width : 1200px) {
+	.delivery-block, .pay-block{
+		width: 43.5%;
+	}
+	.confirm-block input{
+		width: 53%;
+	}
+}
+ 
+/**/
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.lines:after,
+	.lines:before {
+		width: 80px;
+	}
+	.delivery-block, .pay-block{
+		width: 41%;
+	}
+	.left-content {
+    width: 65%;
+  }
+	.confirm-block {
+    width: 30%;
+  }
+	.confirm-block input{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width : 840px) {
+
+	.lines:after,
+	.lines:before {
+		width: 45px;
+	}
+}
+
+/**/
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.btn-menu{
+		display: block;
+	}
+	.steps {
+		display: none;
+	}
+
+	.top-line img {
+		width: 115px;
+	}
+
+	.top-line {
+		justify-content: center;
+	}
+	.shop-sign{
+		display: block;
+		font-size: 22px;
+		position: absolute;
+		right: 30px;
+	}
+	.left-content{
+		width: 47%;
+	}
+	.confirm-block{
+		width: 44%;
+		margin-right: 1%;
+	}
+	.delivery-block, .pay-block{
+		margin: 0;
+		margin-top: 3%;
+		width: 87%;
+	}
+	.pay-block{		
+		margin-bottom: 3%;
+	}
+	.fastDelivery-block{
+		width: 97%;
+	}
+	.fastDel-blocks{
+		display: block;
+	}
+	.clothes-block{
+		width: 86%;
+		border: none;
+	}
+	.total-clothes{
+		width: 91%;
+	}
+	.clothes-block hr{
+		width: 99%;
+	}
+	.total-clothes table{
+		margin: 0;
+	}
+	.pay-block hr{
+		margin-top: 20px;
+	}
+	.mobv{
+		display: block;
+	}
+	.promo{
+		display: none;
+	}
+	.time-line{
+		display: block;
+	}
+}
+
+/**/
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.hidden{
+		display: block;
+	}
+	.left-content{
+		width: 99%;
+	}
+	.delivery-block a, .pay-block a{
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+	.confirm-block{
+		width: 86%;
+		margin-right: 1%;
+	}
+	.delivery-block, .pay-block{
+		position: relative;
+		width: 87%;
+	}
+	.delivery-block h2, .pay-block h2{
+		margin-bottom: 15px;
+	}
+	.delivery-block p:nth-child(3), p:nth-child(4), p:nth-child(6){
+		margin: 0px;
+	}
+	.delivery-block p:nth-child(5){
+		margin-bottom: 0;
+	}
+	.pay-block h2{
+		margin: 0;
+	}
+	.pay-block hr{
+		margin-bottom: 15px;
+	}
+	.confirm-block{
+		margin-top: 0;
+	}
+	.confirm-block .h3{
+		margin-top: 30px;
+	}
+	.confirm-block .h3:nth-child(2){
+		margin-top: 10px;
+	}
+	.fastDelivery-block{
+		display: none;
+	}
+	.btn-confirm-order{
+		width: 94%;
+	}
+	.hidd-lg{
+		display: block;
+		position: absolute;
+		bottom: -45px;
+		left: 80px;
+	}
+	.back-prev{
+		margin: 0;
+	}
+	.apply-offer{
+		bottom: -125px;
+	}
+	.hidd-sm{
+		display: none;
+	}
+	.hr-total{
+		margin-top: 30px;
+		margin-bottom: 5px;
+	}
+	.total{
+		margin-top: 50px;
+	}
+	.time-line h2{
+	  font-size: 12px;
+	  font-weight: 500;
+	  line-height: 1.33;
+	  text-transform: none;
+	}
+	.circle-item p span i{  
+		border-radius: 15px;
+		font-size: 20px; 
+		position: absolute;
+		bottom: -10px;
+		left: -19px;
+}
+.circle-item p{
+	margin: 20px 70px;
+}
+}
+
+
+
+/**/
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {}
