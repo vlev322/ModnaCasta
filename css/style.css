@@ -542,6 +542,7 @@ button[type="submit"] {
 	font-weight: 500;
 	line-height: 1.5;
 	color: #000000;
+	margin-top: 25px;
 }
 
 .hr-conf {
